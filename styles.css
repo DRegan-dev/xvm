@@ -42,3 +42,8 @@ body {
     transition: .5s;
 }
 
+.navbar a:hover,
+.navbar a:active {
+    color: darkorchid;
+}
+
