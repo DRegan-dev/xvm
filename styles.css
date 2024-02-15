@@ -28,14 +28,14 @@ body {
 
 .logo {
     font-size: 40px;
-    color: black;
+    color: darkkhaki;
     text-decoration: none;
     font-weight: 700;
 }
 
 .navbar a {
     font-size: 18px;
-    color: black;
+    color:darkkhaki;
     text-decoration: none;
     font-weight: 500;
     margin-left: 55px;
@@ -46,4 +46,15 @@ body {
 .navbar a:active {
     color: darkorchid;
 }
+
+.main {
+    min-height: 100vh;
+    background: url("/assets/images/xvm-homepage.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    pointer-events: auto;
+    transition: .5s ease;
+}
+
+
 
