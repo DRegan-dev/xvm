@@ -31,6 +31,7 @@ body {
     color: darkkhaki;
     text-decoration: none;
     font-weight: 700;
+    font-family: 'Phudu', 'Oswald';
 }
 
 .navbar a {
@@ -56,9 +57,14 @@ body {
     transition: .5s ease;
 }
 
+.container {
+    display: flex;
+    height: 100vh;
+    
+}
+
 .home {
     position: relative;
-    left: -50%;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -70,12 +76,19 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+    color: darkkhaki;
 }
 
 .home-content h1 {
     font-size: 78px;
     font-weight: 700;
     text-shadow: 0, 0, 0, .3;
+}
+
+.home-content p {
+    font-size: 16px;
+    text-align: center;
+    text-shadow: 0, 0, 10px rgba(0, 0, 0, .3);
 }
 
 
