@@ -11,6 +11,7 @@ body {
     color: #fff;
     overflow: hidden;
     background: cornsilk;
+    z-index: 0;
 }
 
 .header {
@@ -36,7 +37,7 @@ body {
 
 .navbar a {
     font-size: 18px;
-    color:darkkhaki;
+    color: darkkhaki;
     text-decoration: none;
     font-weight: 500;
     margin-left: 55px;
@@ -50,11 +51,12 @@ body {
 
 .main {
     min-height: 100vh;
-    background: url("/assets/images/xvm-homepage.jpg") no-repeat;
+    background: url('/assets/images/xvm-homepage.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     pointer-events: auto;
     transition: .5s ease;
+    z-index: 1;
 }
 
 .container {
@@ -88,7 +90,7 @@ body {
 .home-content p {
     font-size: 16px;
     text-align: center;
-    text-shadow: 0, 0, 10px rgba(0, 0, 0, .3);
+    text-shadow: 0 0 10px rgba(0, 0, 0, .3);
 }
 
 
