@@ -98,11 +98,11 @@ body {
 .home-content .booking-btn {
     width: 190px;
     height: 55px;
-    background: #e71628;
+    background: #b9202c;
     border: 2px solid #fff;
     outline: none;
     border-radius: 6px;
-    box-shadow: 0 0 10px #e71628;
+    box-shadow: 0 0 10px #b9202c;
     font-size: 18px;
     color: black;
     letter-spacing: 1px;
@@ -111,6 +111,12 @@ body {
     transition: 3s;
     margin-top: 20px;
 }
+
+.home-content .booking-btn:hover {
+    background: darkkhaki;
+    color: #fff;
+}
+
 
 
 
