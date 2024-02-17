@@ -41,6 +41,7 @@ body {
     text-decoration: none;
     font-weight: 500;
     margin-left: 55px;
+    cursor: pointer;
     transition: .5s;
 }
 
@@ -92,6 +93,23 @@ body {
     font-size: 16px;
     text-align: center;
     text-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+
+.home-content .booking-btn {
+    width: 190px;
+    height: 55px;
+    background: #e71628;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #e71628;
+    font-size: 18px;
+    color: black;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 3s;
+    margin-top: 20px;
 }
 
 
