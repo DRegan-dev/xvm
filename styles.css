@@ -24,7 +24,8 @@ body {
      justify-content: space-between;
      display: flex;
      align-items: center;
-     margin-bottom: 10px;
+     margin-bottom: 30px;
+     z-index: 100;
 
 }
 
@@ -49,7 +50,7 @@ body {
 
 .navbar a:hover,
 .navbar a:active {
-    color: #9932cc;
+    color: #b9202c;
 }
 
 .main {
@@ -75,7 +76,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
 }
 
 .home-content {
@@ -83,7 +83,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    color: darkkhaki;
+    color: #bdb76b;
 }
 
 .home-content h1 {
@@ -95,7 +95,7 @@ body {
 .home-content p {
     font-size: 20px;
     text-align: center;
-    text-shadow: 0 0 10px rgb(1, 0, 0);
+    text-shadow: 0 0 15px rgb(185, 32, 44);
 }
 
 .home-content .menu-btn {
