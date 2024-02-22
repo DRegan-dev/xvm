@@ -127,6 +127,7 @@ body {
 }
 
 .popup-menu {
+    position: relative;
     position: absolute;
     width: 600px;
     background: cornflowerblue;
@@ -140,6 +141,10 @@ body {
     transform: scale(.9);
     transition: .3 ease;
     transition-delay: 0;
+    z-index: 110;
+    top: 2%;
+    left: 25%;
+    height: 95vh;
 }
 
 .popup-menu.active {
@@ -148,6 +153,7 @@ body {
     transform: scale(1);
     transition: 1s ease;
     transition-delay: 1s;
+    
 }
 
 
