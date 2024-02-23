@@ -166,7 +166,7 @@ body {
 .popup-menu .menu-header {
     display: flex;
     justify-content: flex-start;
-    padding: 20px 0;
+    padding: 10px 0;
     border-bottom: 2px solid goldenrod;
     margin-bottom: 20px;
 }
@@ -176,7 +176,7 @@ body {
     font-weight: 500;
 }
 
-.starter-options {
+.starter-options .entree-options {
     padding: 20px 0;
     border-bottom: 2px solid goldenrod;
     margin-bottom: 20px;
@@ -188,6 +188,23 @@ body {
 }
 
 .starter-options p {
+    font-size: 12px;
+}
+
+.popup-menu .entree-header{
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 0;
+    border-bottom: 2px solid goldenrod;
+    margin-bottom: 20px;
+}
+
+.entree-options h4 {
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.entree-options p {
     font-size: 12px;
 }
 
