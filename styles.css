@@ -176,6 +176,12 @@ body {
     font-weight: 500;
 }
 
+.starter-options {
+    padding: 20px 0;
+    border-bottom: 2px solid goldenrod;
+    margin-bottom: 20px;
+}
+
 .starter-options h4 {
     text-decoration: underline;
     font-size: 14px;
