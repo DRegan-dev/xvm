@@ -163,5 +163,13 @@ body {
     border-radius: 6px;
 }
 
+.popup-menu .menu-header {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px 0;
+    border-bottom: 2px solid goldenrod;
+    margin-bottom: 30px;
+}
+
 
 
