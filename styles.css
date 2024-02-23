@@ -253,3 +253,17 @@ body {
     transition: .3s;
 }
 
+.popup-menu .btn-group .info-btn:nth-child(1) {
+    background: transparent;
+    color:#bdb76b;
+}
+
+.popup-menu .btn-group .info-btn:nth-child(1):hover {
+    background: #bdb76b;
+    border-color:#bdb76b;
+}
+
+.popup-menu .btn-group .info-btn:nth-child(2):hover {
+    background: #bdb76b;
+    border-color:#bdb76b;
+}
