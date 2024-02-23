@@ -168,7 +168,21 @@ body {
     justify-content: flex-start;
     padding: 20px 0;
     border-bottom: 2px solid goldenrod;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+.menu-header span {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.starter-options h4 {
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.starter-options p {
+    font-size: 12px;
 }
 
 
