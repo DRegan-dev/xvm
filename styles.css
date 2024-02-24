@@ -131,7 +131,7 @@ body {
     position: absolute;
     width: 600px;
     background: #bfbc8f;
-    border: 2px solid #c40094;
+    border: 2px solid goldenrod;
     border-radius: 6px;
     display: flex;
     flex-direction: column;
@@ -229,9 +229,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-top: 1px solid #b9202c;
-    margin-top: 10px;
-    padding: 15px 0 7px;
+    padding: 5px 0 7px;
 }
 
 .popup-menu .btn-group .info-btn {
@@ -253,17 +251,13 @@ body {
     transition: .3s;
 }
 
-.popup-menu .btn-group .info-btn:nth-child(1) {
-    background: transparent;
-    color:#bdb76b;
-}
 
 .popup-menu .btn-group .info-btn:nth-child(1):hover {
-    background: #bdb76b;
-    border-color:#bdb76b;
+    background: rgba(185, 32, 44, .3);
+    border-color:#b9202c;
 }
 
 .popup-menu .btn-group .info-btn:nth-child(2):hover {
     background: #bdb76b;
-    border-color:#bdb76b;
+    border-color:rgba(255, 255, 0, 0.748);
 }
