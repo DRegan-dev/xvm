@@ -11,22 +11,38 @@
         <header class="header">
             <h2 class="logo">Xvm</h2>
             <nav class="navbar">
-                <a href="#">Home</a>
-                <a href="#">About</a>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
                 <a href="#">Book a Table</a>
-                <a href="#">Contact</a>
+                <a href="contact.html">Contact</a>
             </nav>
         </header>
         <div class="container">
-            <section class="home">
-                <div class="home-content">
-                    <h1>This is Xvm</h1>
-                    <p>Welcome to a world where the boundaries between dining and being, dissolve. Savor the paradox of exclusivity, 
-                        where the distinction between guest and main course blurs, creating an immersive culinary symphony.
-                    </p>
-                    <button class="booking-btn">Book</button>
-                </div>
-            </section>
+            <form action="#" id="booking-form" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Full Name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Email Address" required>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="time">Time:</label>
+                <input type="time" id="time" name="time" required>
+
+                <label for="party-size">Party Size:</label>
+                <input type="number" id="party-size" name="party-size" min="1" required>
+
+                <label for="special-requests">Special Requests:</label>
+                <textarea name="" id="special-requests" name="special-requests" cols="30" rows="10"></textarea>
+
+                <button type="submit">Submit Reservation</button>
+            </form>
+            
         </div>
      </main>
 </body>
