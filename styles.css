@@ -97,6 +97,14 @@ body {
     text-shadow: 0, 0, 0, .3;
 }
 
+.home-content h2 {
+    font-size: 35px;
+    font-weight: 300;
+    text-shadow: 0, 0, 0, .3;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
 .home-content p {
     font-size: 20px;
     text-align: center;
@@ -260,4 +268,53 @@ body {
 .popup-menu .btn-group .info-btn:nth-child(2):hover {
     background: #bdb76b;
     border-color:rgba(255, 255, 0, 0.748);
+}
+
+.booking-form {
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    margin-bottom: 5px;
+    font-weight: 300;
+}
+
+input,
+textarea {
+    display: inline-block;
+    width: 50%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+#special-requests {
+    position: relative;
+    left: 155px;
+}
+
+#submit-button {
+    display: block;
+    position: relative;
+    left: 235px;
+    width: 130px;
+    height: 45px;
+    background: #bfbc8f;
+    border: 2px solid #bfbc8f;
+    outline: none;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    transition: .3s;
+}
+
+#submit-button:hover {
+    background: rgba(185, 32, 44, .3);
+    border-color:#b9202c;
 }
