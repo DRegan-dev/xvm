@@ -20,15 +20,19 @@
             <section class="home">
                 <div class="home-content">
                     <h1>Admin Log-in</h1>
-                    <form action="" method="post">
-                        <label for="admin-id">Admin ID:</label>
+                    <form action="" id="booking-form" method="post">
+                        <label for="admin-id">Admin ID: <i class="fa-regular fa-user"></i></label>
                         <input type="text" id="admin-id" name="admin-id" placeholder="Admin ID" required>
-                    <button class="menu-btn">View our Menu</button>
+
+                        <label for="admin-password">Password: </label> <i class="fa-solid fa-lock"></i></label>
+                        <input type="text" id="admin-password" name="admin-password" placeholder="Admin Password" required>
+                    <button class="menu-btn">Log In</button>
                     </form>
                 </div>
             </section>
         </div>
      </main>
      <script src="script.js"></script>
+     <script src="https://kit.fontawesome.com/5125eaa352.js" crossorigin="anonymous"></script>
 </body>
 </html>
